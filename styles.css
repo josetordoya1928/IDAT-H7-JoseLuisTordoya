@@ -1,0 +1,354 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #d3d2d2;
+}
+
+.container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.column1{
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.card-profile{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 34px 24px;
+  background-color: white;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.img-profile{
+  width: 300px;
+  height: 260px;
+}
+
+.card-profile__title{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4F4F;
+  margin-top: 24px;
+  margin-bottom: 6px;
+}
+
+.card-profile__profession{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.card-profile__data{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4F4F;
+  margin-top: 32px;
+  margin-bottom: 34px;
+}
+
+.card-experiences{
+  background-color: white;
+  margin: 44px 0px;
+  border-radius: 12px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 17px 18px 36px 22px;
+}
+
+.card-experiences__container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 44px;
+  gap: 16px;
+}
+
+.card-experiences__date{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.card-experiences__profession{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  margin-top: 12px;
+}
+
+.card-experiences__box{
+  margin-bottom: 33px;
+}
+
+.card-experiences__text{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-bottom: 36px;
+}
+
+.card-experiences__img{
+  height: 84px;
+}
+
+.card-hobbies{
+  background-color: white;
+  margin: 44px 0px;
+  border-radius: 12px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 22px 18px 36px 22px;
+}
+
+.card-hobbies__container{
+  margin-top: 26px;
+}
+
+.card-hobbies__title{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  margin-top: 26px;
+}
+
+.card-experiences__text{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.column2{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.bars{
+  display: flex;
+  flex-direction: column;
+}
+
+.bars-box1{
+  padding: 24px;
+  background-color: white;
+  margin-top: 44px;
+  border-radius: 12px;
+}
+
+.bars-box1__title{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4F4F;
+}
+
+.bars-box1__container{
+  margin-top: 17px;
+}
+
+.bars-box1-label{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4F4F;
+}
+
+.bars-box1__container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bars-box1-box{
+  width: 236px;
+  height: 9.6px;
+  background-color: #C4C4C4;
+  border-radius: 12px;
+  margin-top: 6px;
+}
+
+.bars-box1__bar1{
+  width: 155px;
+  height: 9.6px;
+  background-color: #2F80ED;
+  border-radius: 12px;
+}
+
+.bars-box1__bar2{
+  width: 198px;
+  height: 9.6px;
+  background-color: #2F80ED;
+  border-radius: 12px;
+}
+
+.bars-box1__bar3{
+  width: 218px;
+  height: 9.6px;
+  background-color: #2F80ED;
+  border-radius: 12px;
+}
+
+.projects-title-box{
+  height: 66px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 22px;
+}
+
+.projects-title{
+  height: 22px;
+  width: 102px;
+  left: 532px;
+  top: 444px;
+  color: #4F4F4F;
+}
+
+.project{
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 16px;
+}
+
+.project__container{
+  display: flex;
+  flex-direction: column;
+  padding: 23px 20px;
+}
+
+.project__img{
+  width: 322px;
+  height: 274px;
+  margin-bottom: 16px;
+}
+
+.project-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.project-list{
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.project-list__li{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4F4F;
+}
+
+.project-title{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 18px;
+}
+
+.project__p{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-bottom: 51px;
+}
+
+.project__bt-1{
+  width: 136px;
+  height: 46px;
+  background-color: #2F80ED;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.project__bt-2{
+  width: 136px;
+  height: 46px;
+  background-color: white;
+  border: 2px #2F80ED solid;
+  border-radius: 12px;
+  color: #2F80ED;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
